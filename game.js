@@ -1,7 +1,7 @@
 // *****Simon Game, by Clifton Hill*****
-// clifton@cliftonh.com / https://github.com/CliftonHill
+// clifton [@] cliftonh [dot] com / https://github.com/CliftonHill
 // *Made with vanilla JS and jQuery. Game inspired by Angela Yu (App Brewery) Udemy course on Complete Web Development (https://www.udemy.com/course/the-complete-web-development-bootcamp). Code and approach to coding was all done by Clifton Hill with major help from a Stack Overflow answer below, as well as checking the Udemy course solution for how to make the audio play as expected. Sounds are part of Udemy course.
-// code is © 2015 by Clifton Hill
+// code is © 2020 by Clifton Hill
 
 // FEATURES:
 // With each success, level increasese and time to reply decreases
@@ -84,7 +84,7 @@ async function runSequence() {
   }
   userTurn();
 }
-//**Couldn't make this work on my own, Stackoverflow offered solution https://stackoverflow.com/questions/59762779/how-to-pause-javascript-execution/59762867#59762867. See the included part of the solution: delay = new Promise
+//**Stackoverflow offered solution https://stackoverflow.com/questions/59762779/how-to-pause-javascript-execution/59762867#59762867. See the included part of the solution: delay = new Promise
 
 //I think I can solve the above with recursion without using the async/Promise/await. At the end of the function in the setTimeout func stmnt, I should call the function again (recurse), this should make it wait. let i = 0 before func, i++ at end, call func again, and at top if i === sequence.length - 1, then console.log('Sequence finished, now it's your turn!), else the func continues to call!
 
