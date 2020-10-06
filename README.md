@@ -5,7 +5,7 @@ Classic Simon Game - inspired by Udemy Course w/ Angela Yu
 * Game live at: <https://cliftonhill.github.io/Simon-Game/>
 
 ## Introduction
-Game inspired by Angela Yu (App Brewery) Udemy course on Complete Web Development (https://www.udemy.com/course/the-complete-web-development-bootcamp). Code and approach to coding was all done by Clifton Hill with help from a Stack Overflow answer (https://stackoverflow.com/questions/59762779/how-to-pause-javascript-execution/59762867#59762867), as well as checking the Udemy course solution for how to make the audio play as expected.
+Game inspired by Angela Yu (App Brewery) Udemy course on [Complete Web Development](https://www.udemy.com/course/the-complete-web-development-bootcamp). Code and approach to coding was all done by Clifton Hill with help from a [Stack Overflow answer](https://stackoverflow.com/questions/59762779/how-to-pause-javascript-execution/59762867#59762867), as well as checking the Udemy course solution for how to make the audio play as expected.
 
 * Made with vanilla JS and jQuery.
 * Sounds are part of Udemy course.
